@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ...existing head elements... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Database GUI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- ...existing navbar or header if needed... -->
+    <div class="container mt-4">
+        <h1 class="mb-4">Welcome to the IMDb Database GUI</h1>
+        <h3>Sample Data from Database:</h3>
+        {% if person %}
+        <h1>Hello {{ person }}!</h1>
+        {% else %}
+        <h1>Hello, World!</h1>
+        {% endif %}
+    </div>
+    <!-- ...existing footer... -->
+</body>
+</html>
