@@ -10,19 +10,8 @@ Environment Setup:
 
     Prepare your MongoDB server, initialize the backend project, and set up the frontend scaffolding.
 
-THis is gay:
-    
-    gayview monitor
-    view monitor
-    666view monitor
-    66666666666666666666666666666666666666666666666666view monitor
-    666666666666666666666666666666666view monitor
-    666view monitor
-    6view monitor
-    view monitor
+# Research
+## UI:
 
-UI:
-
-    Bootstrap for 
-    
-    https://getbootstrap.com/
+- [Bootstrap](https://getbootstrap.com/) for CSS/HTML UI 
+- [Flask](https://flask.palletsprojects.com/en/stable/) for WSGI web application framework
