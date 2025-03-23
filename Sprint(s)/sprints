@@ -1,0 +1,75 @@
+Sprint 0: Planning & Setup
+
+    Requirements Elicitation:
+
+        Define user stories (e.g., "As a user, I want to search movies by title," "As a user, I want to filter by genre and year").
+
+    Tooling:
+
+        Set up version control (Git), issue tracking (Jira/Trello), and a repository.
+
+    Environment Setup:
+
+        Prepare your MongoDB server, initialize the backend project, and set up the frontend scaffolding.
+
+Sprint 1: API and Backend Development
+
+    Backend API Endpoints:
+
+        Create endpoints for basic queries (e.g., search by title, filter by genre).
+
+    Database Connection:
+
+        Connect to your MongoDB instance and test simple queries.
+
+    Testing:
+
+        Write unit tests to validate endpoint functionality.
+
+Sprint 2: Frontend Prototype – Basic GUI
+
+    UI Design:
+
+        Create wireframes/mockups for the search interface, results list, and detail view.
+
+    Prototype Components:
+
+        Search Bar: Allows users to type a movie title or keywords.
+
+        Results Section: Displays search results in a list or table.
+
+        Detail Panel: Opens when a movie is selected to show extended information.
+
+    API Integration:
+
+        Connect the frontend components to your backend endpoints using HTTP calls (e.g., with Axios in React).
+
+Sprint 3: Enhancements & Iteration
+
+    Feature Additions:
+
+        Add more filters (e.g., by rating, year, director).
+
+        Implement pagination or infinite scrolling if your dataset is large.
+
+    UI/UX Improvements:
+
+        Refine visual design and responsiveness.
+
+    Feedback Loop:
+
+        Demo the prototype to potential users or team members and iterate based on feedback.
+
+Sprint 4: Testing & Deployment
+
+    Comprehensive Testing:
+
+        Integration and user acceptance testing.
+
+    Final Adjustments:
+
+        Bug fixes, performance improvements, and polishing.
+
+    Deployment:
+
+        Deploy the application and document your process.
