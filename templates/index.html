@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- ...existing head elements... -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMDb Database GUI</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Random Movie</title>
 </head>
 <body>
-    <!-- ...existing navbar or header if needed... -->
-    <div class="container mt-4">
-        <h1 class="mb-4">Welcome to the IMDb Database GUI</h1>
-        <h3>Sample Data from Database:</h3>
-        <ul class="list-group">
-            {% for doc in sample_docs %}
-            <li class="list-group-item">
-                {{ doc }}
-            </li>
-            {% endfor %}
-        </ul>
+    <h1>Random Movie</h1>
+    <button onclick="showRandomMovie()">Show Random Movie</button>
+    <div id="movie-details">
+        <p><strong>Title:</strong> <span id="title"></span></p>
+        <p><strong>Rating:</strong> <span id="rating"></span></p>
+        <p><strong>Genres:</strong> <span id="genres"></span></p>
+        <p><strong>Release Date:</strong> <span id="release_date"></span></p>
     </div>
-    <!-- ...existing footer... -->
+
+    <script>
+        function showRandomMovie() {
+            fetch('/random_movie')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('title').textContent = data.title;
+                    document.getElementById('rating').textContent = data.rating;
+                    document.getElementById('genres').textContent = data.genres;
+                    document.getElementById('release_date').textContent = data.release_date;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
 </body>
 </html>
