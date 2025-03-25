@@ -15,3 +15,43 @@ Environment Setup:
 
 - [Bootstrap](https://getbootstrap.com/) for CSS/HTML UI 
 - [Flask](https://flask.palletsprojects.com/en/stable/) for WSGI web application framework
+
+# Use Cases
+
+1. **Top Rated Movies by Genre**:
+   - Query the database to find the top-rated movies for each genre and display them in a table or graph.
+
+2. **Movies Released in a Specific Year**:
+   - Allow users to input a year and return a list of movies released in that year, sorted by rating.
+
+3. **Actor's Filmography**:
+   - Allow users to input an actor's name and return a list of movies they have appeared in, along with their roles and ratings.
+
+4. **Director's Best Movies**:
+   - Allow users to input a director's name and return a list of their highest-rated movies.
+
+5. **Movies with Specific Runtime**:
+   - Allow users to input a runtime range and return a list of movies that fall within that range.
+
+6. **Movies with Most Awards**:
+   - Query the database to find movies that have won the most awards and display them in a table or graph.
+
+7. **Movies by Language**:
+   - Allow users to input a language and return a list of movies in that language, sorted by rating.
+
+8. **Movies with Specific Keywords**:
+   - Allow users to input keywords and return a list of movies that match those keywords in their titles or descriptions.
+
+9. **Top Rated Movies by Decade**:
+   - Query the database to find the top-rated movies for each decade and display them in a table or graph.
+
+10. **Movies with Specific Ratings**:
+    - Allow users to input a rating range and return a list of movies that fall within that range.
+
+11. **Movies by Country**:
+    - Allow users to input a country and return a list of movies produced in that country, sorted by rating.
+
+12. **Movies with Specific Cast Combinations**:
+    - Allow users to input multiple actor names and return a list of movies that feature all of those actors.
+13. **Movie Data picker**:
+    - Two peole each enter their fav movie and the system recommends a similar one.
